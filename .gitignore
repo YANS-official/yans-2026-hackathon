@@ -1,0 +1,2 @@
+# test inputs are published on the day at 17:30 (re-export with --include-test)
+data/test.jsonl
