@@ -11,7 +11,7 @@
    効いているかを確認します
 3. **リーダーボードに提出する** — `dev_leaderboard.jsonl`（100問・ラベルなし）への
    予測（Task 1）または事例割当（Task 2）を提出してスコアを確認します。
-   最終評価は当日 17:30 公開の `test.jsonl` で行います
+   最終評価は当日 17:00 公開の `test.jsonl` で行います
 
 ## ベースライン notebook（Google Colab）
 
@@ -38,7 +38,7 @@
 | `data/train.jsonl` | 学習用。`label` 付き（1000問） |
 | `data/dev_labeled.jsonl` | 手元検証用。`label` 付き（200問） |
 | `data/dev_leaderboard.jsonl` | リーダーボード対象。**入力のみ**（`label` なし、100問） |
-| `data/test.jsonl` | 最終評価用。**入力のみ**（`label` なし、100問）。**当日 17:30 に公開**（それまでは同梱されません） |
+| `data/test.jsonl` | 最終評価用。**入力のみ**（`label` なし、100問）。**当日 17:00 に公開**（それまでは同梱されません） |
 
 ### レコード形式
 
